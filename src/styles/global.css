@@ -19,9 +19,19 @@
 
     --color-shade-Shade1: #43A046;
     --color-shade-Shade2: #388E3B;
-    --color-shade-Shade3: #388E3B;
-    --color-shade-Shade4: #388E3B;
-    --color-shade-Shade5: #388E3B;
+    --color-shade-Shade3: #237D31;
+    --color-shade-Shade4: #1B5E1F;
+    --color-shade-Shade5: #103E13;
+
+    --color-tint-Tint1: #66BB69;
+    --color-tint-Tint2: #81C784;
+    --color-tint-Tint3: #A5D6A7;
+    --color-tint-Tint4: #C8E6C9;
+    --color-tint-Tint5: #E8F5E9;
+
+    --color-action-Warning: #FBC02D;
+    --color-action-Error: #E53835;
+    --color-action-Success: #2E7D31;
 
     --font: "Inter";
 }
