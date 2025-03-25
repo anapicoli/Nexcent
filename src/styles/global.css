@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body{
+    font-family: var(--font);
+}
+
 :root{
     --color-neutral-White: #FFFFFF;
     --color-neutral-Silver: #F5F7FA;
@@ -13,9 +17,9 @@
     --color-neutral-D_Grey: #4D4D4D;
     --color-neutral-Black: #263238;
 
-    --color-primary-Primary: #28CB8B;
-    --color-primary-Secondary: #263238;
-    --color-primary-Info: #2194f3;
+    --color-Primary: #28CB8B;
+    --color-Secondary: #263238;
+    --color-Info: #2194f3;
 
     --color-shade-Shade1: #43A046;
     --color-shade-Shade2: #388E3B;
