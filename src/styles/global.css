@@ -8,6 +8,9 @@ body{
     font-family: var(--font);
 }
 
+p{
+    color: var(--color-neutral-D_Grey);
+}
 :root{
     --color-neutral-White: #FFFFFF;
     --color-neutral-Silver: #F5F7FA;
