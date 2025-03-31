@@ -1,6 +1,8 @@
-@import url("./global.css");
 
-/* -- HEADER -- */
+@import url(./global.css);
+
+/* ------------ HEADER ------------ */
+
 header{
     display: flex;
     justify-content: space-around;
@@ -8,7 +10,7 @@ header{
     background-color: var(--color-neutral-silver);
 }
 
-.logo {
+.logo{
     padding: 30px 0px;
 }
 
@@ -19,7 +21,7 @@ header{
 }
 
 .nav-header ul a{
-    text-decoration:  none;
+    text-decoration: none;
     color: #18191F;
 }
 
@@ -46,16 +48,21 @@ header{
     gap: 14px;
     padding: 22px 0px;
 }
-/* -- FIM HEADER -- */
 
-/* -- MAIN -- */
+/* ------------ FIM HEADER ------------ */
+
+
+
+/*---------- Main -----------*/ 
+
 main{
     display: flex;
     background-color: var(--color-neutral-silver);
     align-items: center;
     justify-content: center;
     gap: 104px;
-    padding: 96px 0px;
+    padding: 96px 0px ;
+
 }
 
 .content-lessons{
@@ -64,50 +71,60 @@ main{
 
 h1{
     font-size: 64px;
-    color: var(--color-neutral-d_grey);
+    color: var( --color-neutral-d_grey);
     font-weight: 600;
-}
+}   
 
 .content-lessons h1 span{
     color: var(--color-primary);
 }
 
-.content-lessons p{
-    margin-top: 16px;    
+.content-lesso p{
+    margin-top: 20px;
 }
-/* -- FIM MAIN -- */
 
-/* -- OUR CLIENTS -- */
-.our-client{
+
+
+
+/*---------- Fim  Main -----------*/
+
+/*---------- Our Clients -----------*/
+
+.Our-Client{
     text-align: center;
     margin-top: 40px;
 }
 
-.our-client p{
+.Our-Client p{
     margin-top: 8px;
+
 }
 
-.logo-clients{
-    display: flex;
+.Logo-clients{
+    display:flex;
     justify-content: center;
     gap: 136px;
-    padding: 25px 0px;    
+    padding: 25px 0px;
     margin-top: 16px;
 }
-/* -- FIM OUR CLIENTS -- */
+/*---------- Fim  Our Clients -----------*/
 
-/* -- MANAGE SYSTEM -- */
+/*---------- MANAGE SYSTEM -----------*/
+
 .manage-system{
+    text-align: center;
     margin-top: 40px;
-    text-align: center;    
+
+
 }
 
 .manage-system h2{
     width: 542px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    
 }
 
-.manage-system-subtitle{
+#manage-system-subtitle{
     margin-top: 8px;
 }
 
@@ -115,9 +132,9 @@ h1{
     display: flex;
     margin-top: 16px;
     gap: 127.5px;
-    justify-content: center;
-}
+    justify-content: center ;
 
+}
 .cards-container article{
     width: 299px;
     box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
@@ -128,64 +145,115 @@ h1{
 }
 
 .cards-container article:hover{
-    box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
+    box-shadow: 0px 8px 14px rgba(171, 190, 209, 0.5);
     transform: translateY(-8px);
+
+}
+
+.cards-container article img{
+    width: 65px;
+    height: 56px;
+
 }
 
 .cards-container article h3{
     color: var(--color-neutral-d_grey);
     font-size: 28px;
     margin-bottom: 8px;
-    width: 231px;
+    width: 231;
     margin: 0 auto;
 }
 
 .cards-container article p{
+
     font-size: 14px;
     line-height: 1.6;
+    margin-top: 8px;
+
 }
 
-/* -- FIM MANAGE SYSTEM -- */
 
-/* .section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+/*---------- fim  MANAGE SYSTEM -----------*/
 
-/* -- PIXELGRADE -- */
-.pixelgrade{
+
+/*----------  Pixelgrade ----------- */
+
+
+.Pixelgrade{
     display: flex;
     justify-content: center;
-    margin-top: 42px;
     gap: 49px;
+    margin-top: 42px;
     padding: 52px;
 }
 
-.pixelgrade-content{
-    width: 661px;
+.Pixelgrade-content{
+    width: 661px;   
 }
 
-.pixelgrade-content h2{
-    width: 526px;
+.Pixelgrade-content h2{
     font-size: 36px;
-    color: var(--color-neutral-D_Grey);
-
+    margin-bottom: 16px;
+    width: 526px;
 }
 
-.pixelgrade-content p{
+.Pixelgrade-content p{
     margin-top: 16px;
-    margin-bottom: 32px;
-    font-size: 14px;
-    color: var(--color-neutral-Grey);
 
 }
 
-.pixelgrade-content button{
-    background-color: var(--color-Primary);
-    padding: 14px 32px;
-    border-radius: 4px;
-    color: var(--color-neutral-White);
+/*----------  Fim Pixelgrade -----------*/
+
+/* ---------- Helping Local----------*/
+
+.Helping-Local{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    gap: 204px;
+    padding: 64px 0px;
+
 }
 
-/* -- FIM PIXELGRADE -- */
+.helpin-content h2{
+
+    width: 390px;
+
+}
+
+.helpin-content h2 span{
+    color: var(--color-primary);
+}
+
+.helpin-content p{
+
+    margin-top: 8px;
+    color: #18191F;
+
+}
+
+.helpin-statistic{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 64px;
+
+}
+
+.helpin-itens{
+    display: flex;
+    gap: 16px;
+}
+
+.helpin-itens img{
+    width: 48px;
+}
+
+.information-itens{
+    text-align: start;
+}
+
+/* ---------- Fim Helping Local------*/

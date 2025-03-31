@@ -11,6 +11,16 @@ body{
 p{
     color: var(--color-neutral-D_Grey);
 }
+
+.btn-primary{
+    background-color: var(--color-Primary);
+    border-radius: 4px;
+    color: var(--color-neutral-White);
+    padding: 14px 32px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
 :root{
     --color-neutral-White: #FFFFFF;
     --color-neutral-Silver: #F5F7FA;
