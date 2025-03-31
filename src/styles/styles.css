@@ -258,3 +258,23 @@ h1{
 }
 
 /* ---------- Fim Helping Local------*/
+
+/* ------ Design ------*/
+.how-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+    gap: 49.47px;
+}
+
+.how-design h2{
+    width: 601px;
+}
+
+.how-design p{
+    width: 601px;
+    margin-top: 16px;
+    line-height: 1.5;
+}
+/* ------ Fim Design ------*/
