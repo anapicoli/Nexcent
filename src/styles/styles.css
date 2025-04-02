@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--color-neutral-silver);
+    background-color: var(--color-neutral-Silver);
 }
 
 .logo{
@@ -57,7 +57,7 @@ header{
 
 main{
     display: flex;
-    background-color: var(--color-neutral-silver);
+    background-color: var(--color-neutral-Silver);
     align-items: center;
     justify-content: center;
     gap: 104px;
@@ -71,12 +71,12 @@ main{
 
 h1{
     font-size: 64px;
-    color: var( --color-neutral-d_grey);
+    color: var( --color-neutral-D_Grey);
     font-weight: 600;
 }   
 
 .content-lessons h1 span{
-    color: var(--color-primary);
+    color: var(--color-Primary);
 }
 
 .content-lesso p{
@@ -157,7 +157,7 @@ h1{
 }
 
 .cards-container article h3{
-    color: var(--color-neutral-d_grey);
+    color: var(--color-neutral-D_Grey);
     font-size: 28px;
     margin-bottom: 8px;
     width: 231;
@@ -211,7 +211,7 @@ h1{
     display: flex;
     justify-content: center;
     margin: 48px 0px;
-    background-color: var(--color-neutral-silver);
+    background-color: var(--color-neutral-Silver);
     align-items: center;
     gap: 204px;
     padding: 64px 0px;
@@ -225,7 +225,7 @@ h1{
 }
 
 .helpin-content h2 span{
-    color: var(--color-primary);
+    color: var(--color-Primary);
 }
 
 .helpin-content p{
@@ -278,3 +278,119 @@ h1{
     line-height: 1.5;
 }
 /* ------ Fim Design ------*/
+
+/*----- Customer -------- */
+
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 78px;
+    background-color: var(--color-neutral-Silver);
+}
+
+.customer-content{
+    width: 748px;
+}
+
+.customer-content p{
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.customer-content h2{
+    color: var(--color-Primary);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.customer-content p:nth-of-type(2){
+    color: var(--color-neutral-L_Grey);
+}
+
+.customer-container{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.customer-itens{
+    display: flex;
+    gap: 41px;
+}
+
+.customer-itens img{
+    width: 48px;
+}
+
+
+.customer-navigation a{
+    display: flex;
+    text-decoration: none;
+}
+
+.customer-navigation p{
+    color: var(--color-Primary);
+    margin: 0px;
+    gap: 8px;
+}
+/*----- Fim Customer -------- */
+
+/*----- Caring Marketing -------- */
+.caring-marketing{
+    text-align: center;
+}
+
+.caring-marketing h2{
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.caring-marketing-p{
+    width: 628px;
+    margin: 0 auto;
+}
+
+.caring-marketing-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.caring-cards{
+    width: 368px;
+    position: relative;
+}
+
+.caring-cards-content{
+    box-sizing: border-box;
+    background-color: var(--color-neutral-Silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgba(171, 190, 209, 0.4);
+    width: 317px;
+    padding: 16px;
+    position: absolute;
+    bottom: -53px;
+    left: 26px;
+}
+
+.caring-cards-content h3{
+    font-size: 20px;
+    color: var(--color-neutral-Grey);
+}
+
+.caring-cards-content a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.caring-cards-content a p{
+    color: var(--color-Primary);
+}
