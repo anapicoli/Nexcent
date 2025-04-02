@@ -357,6 +357,7 @@ h1{
     gap: 24px;
     justify-content: center;
     margin-top: 16px;
+    margin-bottom: 94.6px;
 }
 
 .caring-cards{
@@ -394,3 +395,29 @@ h1{
 .caring-cards-content a p{
     color: var(--color-Primary);
 }
+/*----- Fim Caring Marketing -------- */
+
+/*----- Pellentesque -------- */
+.pellentesque{
+    text-align: center;
+    background-color: var(--color-neutral-Silver);
+}
+
+.pellentesque h2{
+    font-size: 64px;
+    width: 670px;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+
+.pellentesque button{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+.pellentesque a{
+    text-decoration: none;
+}
+/*----- Fim Pellentesque -------- */
